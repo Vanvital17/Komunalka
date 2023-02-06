@@ -21,6 +21,14 @@ function iffunc(vara){
       document.getElementById("button__BSonya").style.backgroundColor = "transparent";
    }
 
+   if (a == 3){
+      document.getElementById("button__BSlava").style.color = "#47126b";
+      document.getElementById("button__BSlava").style.backgroundColor = "#B210BA";}
+   else{
+      document.getElementById("button__BSonya").style.color = "#FFF";
+      document.getElementById("button__BSonya").style.backgroundColor = "transparent";
+   }
+
    if (a == 4){
       document.getElementById("button__Sveta").style.color = "#47126b";
       document.getElementById("button__Sveta").style.backgroundColor = "#B210BA";}
