@@ -919,3 +919,4 @@ function copyDivToClipboard8() {
 
 function refreshPage(){
 window.location.reload() }
+
