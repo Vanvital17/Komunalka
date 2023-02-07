@@ -25,8 +25,8 @@ function iffunc(vara){
       document.getElementById("button__BSlava").style.color = "#47126b";
       document.getElementById("button__BSlava").style.backgroundColor = "#B210BA";}
    else{
-      document.getElementById("button__BSonya").style.color = "#FFF";
-      document.getElementById("button__BSonya").style.backgroundColor = "transparent";
+      document.getElementById("button__BSlava").style.color = "#FFF";
+      document.getElementById("button__BSlava").style.backgroundColor = "transparent";
    }
 
    if (a == 4){
