@@ -256,37 +256,70 @@ document.getElementById("results__btn6").style.display = "inline";
 document.getElementById("results__btn7").style.display = "inline";
 }
 
-return b;}
+return b;}  
 
-function typeFun3(vara) { // Абонплата
-b = 3
-document.getElementById("main__title1").style.opacity = "0";
-document.getElementById("main__title2").style.opacity = "0";
-document.getElementById("main__title3").style.opacity = "0";
-document.getElementById("select").style.opacity = "0";
-document.getElementById("input__end").style.opacity = "0";
-document.getElementById("input__start").style.opacity = "0";
 
-document.getElementById("main__title4").style.opacity = "0";
-document.getElementById("main__title5").style.opacity = "0";
+function typeFun4(vara) { //Світло
+b = 4
+
+if(a==3){
+   document.getElementById("description").style.display = "flex";
+   document.getElementById("description").style.justifyContent = "space-around";
+   document.getElementById("description").style.alignItems = "center";
+   document.getElementById("description__abon").style.display = "none";
+   document.getElementById("description__water").style.padding = "12px";
+   document.getElementById("description__water").style.width = "50%";
+   document.getElementById("description__stock").style.display = "inline";
+   document.getElementById("description__stock").style.padding = "12px";
+   document.getElementById("description__stock").style.width = "50%";
+   document.getElementById("Description1").style.display = "block";
+   document.getElementById("Description1").style.fontSize = "32px";
+   document.getElementById("Description1").style.fontWeight = "500";
+   document.getElementById("Description1").style.marginBottom = "15px";
+   document.getElementById("Description2").style.display = "block";
+   document.getElementById("Description2").style.fontSize = "32px";
+   document.getElementById("Description2").style.fontWeight = "500";
+   document.getElementById("Description2").style.marginBottom = "15px";
+   document.getElementById("Description2").style.opacity = "1";
+   document.getElementById("Sum1").style.display = "block";
+   document.getElementById("Sum1").style.fontSize = "35px";
+   document.getElementById("Sum1").style.fontWeight = "500";
+   document.getElementById("Sum1").style.marginBottom = "15px";
+   document.getElementById("Sum2").style.display = "block";
+   document.getElementById("Sum2").style.fontSize = "35px";
+   document.getElementById("Sum2").style.fontWeight = "500";
+   document.getElementById("Sum2").style.marginBottom = "15px";
+   document.getElementById("Sum2").style.opacity = "1";
+   document.getElementById("results__btn4").style.opacity = "1";
+   document.getElementById("results__btn5").style.opacity = "1";
+   document.getElementById("results__btn6").style.display = "inline";
+   document.getElementById("results__btn7").style.display = "none";
+   document.getElementById("Sum2").style.marginBottom = "70px";
+   }
+
+if(a==1){
 document.getElementById("results__btn6").style.display = "none";
 document.getElementById("results__btn7").style.display = "none";
-document.getElementById("results__btn8").style.display = "none";
-document.getElementById("results__btn9").style.display = "none";
-document.getElementById("input__end1").style.opacity = "0";
-document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
 document.getElementById("Description1").style.fontSize = "37px";
 document.getElementById("Sum1").style.fontSize = "37px";
+}
 
+if(a==4){
+document.getElementById("results__btn6").style.display = "none";
+document.getElementById("results__btn7").style.display = "none";
 
-return b;}
-
-function typeFun4(vara) { //Світло
-b = 4
+document.getElementById("description").style.display = "block";
+document.getElementById("description__water").style.width = "100%";
+document.getElementById("description__water").style.padding = "0";
+document.getElementById("description__stock").style.display = "none";
+document.getElementById("Description1").style.fontSize = "37px";
+document.getElementById("Sum1").style.fontSize = "37px";
+}
 
 if(a==2){
 document.getElementById("main__title1").style.opacity = "1";
@@ -311,12 +344,14 @@ document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
 document.getElementById("Description1").style.fontSize = "37px";
 document.getElementById("Sum1").style.fontSize = "37px";
 }
+
 
 document.getElementById("main__title1").style.opacity = "1";
 document.getElementById("main__title2").style.opacity = "1";
@@ -328,28 +363,27 @@ document.getElementById("results__btn2").style.opacity = "1";
 document.getElementById("results__btn3").style.opacity = "1";
 document.getElementById("results__btn4").style.opacity = "1";
 document.getElementById("results__btn5").style.opacity = "1";
-document.getElementById("results__btn6").style.display = "none";
-document.getElementById("results__btn7").style.display = "none";
 document.getElementById("results__btn8").style.display = "none";
 document.getElementById("results__btn9").style.display = "none";
 document.getElementById("main__title2").innerHTML = 'Показник л-ка в кінці місяця';
 document.getElementById("main__title3").innerHTML = 'Показник л-ка на початку місяця';
+
 
 document.getElementById("main__title4").style.opacity = "0";
 document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
-document.getElementById("description__water").style.width = "100%";
-document.getElementById("description__water").style.padding = "0";
-document.getElementById("description__stock").style.display = "none";
-document.getElementById("Description1").style.fontSize = "37px";
-document.getElementById("Sum1").style.fontSize = "37px";
-//console.log(b)
+
 return b;}
 
 function typeFun5(vara) { //Квартплата
 b = 5
+
+document.getElementById("description__water").style.marginRight = "0";
+document.getElementById("description__water").style.textAlign = "center";
+document.getElementById("description__stock").style.display = "none";
+
 document.getElementById("main__title2").style.opacity = "0";
 document.getElementById("main__title3").style.opacity = "0";
 document.getElementById("input__end").style.opacity = "0";
@@ -361,6 +395,8 @@ document.getElementById("select").style.opacity = "1";
 document.getElementById("results__btn2").style.opacity = "1";
 document.getElementById("results__btn3").style.opacity = "1";
 document.getElementById("results__btn4").style.opacity = "1";
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
 document.getElementById("results__btn6").style.display = "none";
 document.getElementById("results__btn7").style.display = "none";
 document.getElementById("results__btn8").style.display = "none";
@@ -371,6 +407,7 @@ document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
@@ -381,6 +418,21 @@ return b;}
 
 function typeFun6(vara) { //Транспорт газу
 b = 6
+
+if(a==2){
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
+}
+
+if(a==3){
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
+}
+
+if(a==4){
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
+}
 document.getElementById("main__title2").style.opacity = "0";
 document.getElementById("main__title3").style.opacity = "0";
 document.getElementById("input__end").style.opacity = "0";
@@ -401,6 +453,7 @@ document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
@@ -431,6 +484,7 @@ document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
@@ -443,6 +497,8 @@ function typeFun8(vara) { //Домофон
 b = 8
 
 if (a==1) !! (a==3)
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
 document.getElementById("main__title1").style.opacity = "0";
 document.getElementById("select").style.opacity = "0";
 document.getElementById("main__title2").innerHTML = '3 ...';
@@ -465,6 +521,7 @@ document.getElementById("main__title5").style.opacity = "0";
 document.getElementById("input__end1").style.opacity = "0";
 document.getElementById("input__start1").style.opacity = "0";
 
+document.getElementById("description").style.display = "block";
 document.getElementById("description__water").style.width = "100%";
 document.getElementById("description__water").style.padding = "0";
 document.getElementById("description__stock").style.display = "none";
@@ -487,6 +544,8 @@ document.getElementById("results__btn6").style.display = "none";
 document.getElementById("results__btn7").style.display = "none";
 document.getElementById("results__btn8").style.display = "none";
 document.getElementById("results__btn9").style.display = "none";
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
 
 document.getElementById("main__title4").style.opacity = "0";
 document.getElementById("main__title5").style.opacity = "0";
@@ -515,6 +574,8 @@ document.getElementById("results__btn6").style.display = "none";
 document.getElementById("results__btn7").style.display = "none";
 document.getElementById("results__btn8").style.display = "none";
 document.getElementById("results__btn9").style.display = "none";
+document.getElementById("results__btn5").style.display = "none";
+document.getElementById("Sum1").style.marginBottom = "70px";
 
 document.getElementById("main__title4").style.opacity = "0";
 document.getElementById("main__title5").style.opacity = "0";
@@ -609,30 +670,28 @@ document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==1) && (b==6)){
-var money = 215.08;
+
 document.getElementById("Rahunok").append("UA673365030000002600630101135")
 document.getElementById("Company").append("ПАТ \"Ів.Франківськгаз\"")
 document.getElementById("Number").append("03361046")
 document.getElementById("Description1").append("За " + opt[sel+1].text + " 2023 О/Р 0710361359 за розподіл газу ") + "."
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("215.87")
 }
 
 if ((a==1) && (b==7)){
-var money = 150;
 document.getElementById("Rahunok").append("UA603808050000000026005197284")
 document.getElementById("Company").append("АВТОКОЛОНА 2222 ДП")
 document.getElementById("Number").append("30475732")
 document.getElementById("Description1").append("За " + opt[sel].text + " 2023 О/Р 54779 Галицька 149/30 Ванчуляк В.С. за вивіз сміття") + "."
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("150")
 }
 
 if ((a==1) && (b==8)){
-var money = 207;
 document.getElementById("Rahunok").append("UA513052990000026008021002327")
 document.getElementById("Company").append("Домофон Люкс")
 document.getElementById("Number").append("3244604114")
 document.getElementById("Description1").append(" *11076030 Ванчуляк В.С. Галицька 149/30 з " + numberEnd + " по " + numberBegin) + "."
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==1) && (b==9)){
@@ -681,12 +740,11 @@ document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==2) && (b==7)){
-var money = 75;
 document.getElementById("Rahunok").append("UA793365030000002600830101339")
 document.getElementById("Company").append("ВАТ АТП-0928")
 document.getElementById("Number").append("03345863")
 document.getElementById("Description1").append("За " + opt[sel].text + " 2023 О/Р 776461 вул. Набережна 40Б/22 Ванчуляк С.В. за вивіз сміття.")
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("75")
 }
 
 if ((a==2) && (b==8)){
@@ -725,8 +783,11 @@ var money = sum*1.44;
 document.getElementById("Rahunok").append("UA883365030000026034300046328")
 document.getElementById("Company").append("ТОВ \"Прикарпаттяенерготрейд\"")
 document.getElementById("Number").append("42129720")
-document.getElementById("Description1").append("За " + opt[sel].text + " 2023 О/Р 24047794  вул. Південний бульвар буд 40/53 Сурмачевський Г. Д. за електроенергію. Показник лічильника: " + numberEnd + " - " + numberBegin + " = " + Math.round(sum*100)/100 + " квт.") + "."
+document.getElementById("Description1").append("За " + opt[sel].text + " 2023 О/Р 24047794  вул. Південний бульвар буд 40/53 Сурмачевський Г. Д. за електроенергію. Показник лічильника: " + numberEnd + " - " + numberBegin + " = " + Math.round(sum*100)/100 + " квт.")
 document.getElementById("Sum1").append(Math.round(money * 100)/100)
+
+document.getElementById("Description2").append("За " + opt[sel].text + " 2023 О/Р 2370327326 Сурмачевський Г.Д. вул. Ковпака 2 с. Горожанка.")
+document.getElementById("Sum2").append("Ціна змінюється")
 }
 
 if ((a==3) && (b==5)){
@@ -734,34 +795,31 @@ document.getElementById("Rahunok").append("UA873365030000026008300992107")
 document.getElementById("Company").append("ОСББ")
 document.getElementById("Number").append("40595359")
 document.getElementById("Description1").append("За " + opt[sel].text + " 2023 вул. Південний бульвар буд 40/53 Сурмачевський Г. Д. за квартплату.")
-document.getElementById("Sum1").append("250")
+document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==3) && (b==6)){
-var money = 85.94;
 document.getElementById("Rahunok").append("UA673365030000002600630101135")
 document.getElementById("Company").append("ПАТ \"Ів.Франківськгаз\"")
 document.getElementById("Number").append("03361046")
 document.getElementById("Description1").append("За " + opt[sel+1].text + " 2023 О/Р 0710377251 за розподіл газу.")
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==3) && (b==7)){
-var money = 75;
 document.getElementById("Rahunok").append("UA793365030000002600830101339")
 document.getElementById("Company").append("ІВ.- ФР. АТП-0928 ВАТ")
 document.getElementById("Number").append("03345863")
 document.getElementById("Description1").append("За " + opt[sel].text + " 2023 О/Р 775549 вул. Південний бульвар буд 40/53 Сурмачевський Г. Д. за вивіз сміття.")
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("75")
 }
 
 if ((a==3) && (b==8)){
-var money = 207;
 document.getElementById("Rahunok").append("UA513052990000026008021002327")
 document.getElementById("Company").append("Домофон Люкс")
 document.getElementById("Number").append("3244604114")
 document.getElementById("Description1").append(" *11403053 Сурмачевський Г. Д. вул. Південний бульвар буд 40/53 з " + numberEnd + " по " + numberBegin  + ".")
-document.getElementById("Sum1").append(Math.round(money * 100)/100)
+document.getElementById("Sum1").append("Ціна змінюється")
 }
 
 if ((a==3) && (b==9)){
@@ -788,7 +846,7 @@ document.getElementById("Sum3").append(Math.round(money * 100)/100)
 
 
 if ((a==4) && (b==4)){
-var money = sum*1.44;
+var money = sum*1.68;
 document.getElementById("Rahunok").append("UA213365030000026004300231011")
 document.getElementById("Company").append("КП \"Комфортний Дім\"")
 document.getElementById("Number").append("44051740")
@@ -834,13 +892,58 @@ document.getElementById("Rahunok").append("160125189")
 }
 
 if (a==0){
-alert("Виберіть платника!");
-window.location.reload()
+   const Toast = Swal.mixin({
+      toast: true,
+      position: 'bottom-end',
+      showConfirmButton: false,
+      timer: 1000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+      }
+    })
+    
+    Toast.fire({
+      icon: 'error',
+      title: 'Виберіть платника!'
+    })
+
+    
+    setTimeout(function(){
+       window.location.reload();
+      }, 1020);
+      
+   document.getElementById("results").style.display = "none";
+
 }
 
 if (b==0){
-alert("Виберіть комунальну послугу!");
-window.location.reload()
+
+   const Toast = Swal.mixin({
+      toast: true,
+      position: 'bottom-end',
+      showConfirmButton: false,
+      timer: 1000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+      }
+    })
+    
+    Toast.fire({
+      icon: 'error',
+      title: 'Виберіть послугу!'
+    })
+
+    
+    setTimeout(function(){
+       window.location.reload();
+      }, 1020);
+      
+   document.getElementById("results").style.display = "none";
+
 }
 
 window.scroll(0, window.scrollY + 947);}
@@ -916,7 +1019,3 @@ function copyDivToClipboard8() {
       window.getSelection().addRange(range); 
       document.execCommand("copy");
       window.getSelection().removeAllRanges();}
-
-function refreshPage(){
-window.location.reload() }
-

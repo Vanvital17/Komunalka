@@ -345,3 +345,7 @@ select:focus{
 #Description2, #Sum2, #Description3, #Sum3{
    opacity: 0;
 }
+
+.swal2-popup {
+   font-size: 27px !important;
+ }
